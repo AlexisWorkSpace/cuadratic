@@ -14,9 +14,9 @@ int main(){
 
         function coefficient;
 
-        printf("ingrese el coheficiente cuadratico-> "); scanf("%f", &coefficient.cuadratic);
-        printf("ingrese el coheficiente lineal-> "); scanf("%f", &coefficient.lineal);
-        printf("ingrese el coheficiente independiente-> "); scanf("%f", &coefficient.independent);
+        printf("ingrese el coeficiente cuadratico-> "); scanf("%f", &coefficient.cuadratic);
+        printf("ingrese el coeficiente lineal-> "); scanf("%f", &coefficient.lineal);
+        printf("ingrese el coeficiente independiente-> "); scanf("%f", &coefficient.independent);
 
         float hVertices = horizontal_vertice(coefficient.cuadratic, coefficient.lineal);
         float vVertices = vertical_vertice(coefficient.cuadratic, coefficient.lineal, coefficient.independent, hVertices);
